@@ -1,5 +1,5 @@
 <?php
-namespace anyhon\multiselect;
+namespace ffsoft\multiselect;
 
 use yii\base\Model;
 use yii\bootstrap4\Widget;
