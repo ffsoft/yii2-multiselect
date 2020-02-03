@@ -1,0 +1,47 @@
+{
+  "name": "ffsoft/yii2-multiselect",
+  "description": "Multiple Select widget for Yii2 framework",
+  "keywords": [
+    "buga1234",
+    "yii2",
+    "yii 2",
+    "widget",
+    "multiselect",
+    "multiple select",
+    "select"
+  ],
+  "type": "yii2-extension",
+  "license": "MIT",
+  "homepage": "https://github.com/ffsoft/yii2-multiselect",
+  "authors": [
+    {
+      "name": "Timur Bugayevskiy",
+      "email": "buga1234@gmail.com",
+      "homepage": "https://github.com/ffsoft",
+      "role": "Developer"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "yiisoft/yii2": "~2.0.0",
+    "yiisoft/yii2-bootstrap4": "~2.0.0",
+    "bower-asset/multiple-select": "~1.2.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "anyhon\\multiselect\\": "src"
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ],
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
+}
